@@ -1,3 +1,4 @@
+//This program is done by 23TCEIM1_DHARMIK
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -28,6 +29,8 @@ int main()
 
 	ilw = now - lw;
 	printf("\n8. Illetrate women is: %.0f",ilw);
+
+	printf("\n\n23TCEIM1_DHARMIK\n");
 
 	getch();
 	return 0;

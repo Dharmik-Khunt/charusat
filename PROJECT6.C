@@ -1,3 +1,4 @@
+//this program is done by 23TCEIM1_DHARMIK
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -20,6 +21,9 @@ void main()
 	printf("\nFirst num become:%d",n1);
 	printf("\nSecond num become:%d",n2);
 
+	printf("\n\n23TCEIM1_DHARMIK\n");
+
 	getch();
+
 
 }

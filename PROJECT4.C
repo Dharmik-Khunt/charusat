@@ -1,3 +1,4 @@
+//This program is done by 23TCEIM1_DHARMIK
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -17,5 +18,7 @@ void main()
 
 	printf("\n\n********Count after execution********");
 	printf("\n\nRemaining Balls are:%d",yballs);
+
+	printf("\n\n23TCEIM1_DHARMIK\n");
 	getch();
 }

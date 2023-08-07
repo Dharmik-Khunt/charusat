@@ -1,3 +1,4 @@
+//This program is done by 23TCEIM1_DHARMIK
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -34,6 +35,8 @@ int main()
 
 	NS = GS - (PF+IT);
 	printf("\nNet salary is: %d",NS);
+
+	printf("\n\n23TCEIM1_DHARMIK\n");
 
 	getch();
 	return 0;
