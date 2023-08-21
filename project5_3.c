@@ -1,0 +1,27 @@
+//This program is done by 23TCEIM1_DHARMIK
+#include<stdio.h>
+int main()
+{
+    int Year;
+
+    printf("Enter a Year:");
+    scanf("%d",&Year);
+
+    if(Year%400==0)
+    {
+	printf("It is a Leap year");
+    }
+    else if(Year%100==0)
+    {
+	printf("It is not a Leap year");
+    }
+    else if(Year%4==0)
+    {
+	printf("It is a leap year");
+    }
+    else
+    {
+	printf("It is not a Leap year");
+    }
+    printf("\n\n23TCEIM1_DHARMIK");
+}
