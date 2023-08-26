@@ -1,3 +1,4 @@
+//This program is done by 23TCEIM1_DHARMIK
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -36,6 +37,8 @@ int main()
     printf("\nRoot 1:%.2f",R1);
     printf("\nRoot 2:%.2f",R2);
     printf("\nImg:%.2f",img);
+
+    printf("\n\n23TCEIM1_DHARMIK");
 
     return 0;
 }

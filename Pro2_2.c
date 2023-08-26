@@ -1,10 +1,9 @@
 //This program is done by 23TCEIM1_DHARMIK
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
 	int DA,HRA,MA,TA,PF,IT,GS,NS,salary;
-	clrscr();
+	
 
 	printf("Enter the basic salary:");
 	scanf("%d",&salary);
@@ -38,6 +37,5 @@ int main()
 
 	printf("\n\n23TCEIM1_DHARMIK\n");
 
-	getch();
 	return 0;
 }

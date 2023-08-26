@@ -1,10 +1,8 @@
 // This program is done by 23TCEIM1_DHARMIK
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 	float item, ppi, Total_Price, cost;
-	clrscr();
 
 	printf("Enter the quantity:");
 	scanf("%f",&item);
@@ -16,11 +14,10 @@ void main()
 	if(item>1000)
 	{
 	      cost = Total_Price * 0.90;
-	      printf("Final Amount:%f",cost);
+	      printf("Final Amount:%.0f",cost);
 	}
-
-	printf("Final Amount:%f",Total_Price);
-
-	printf("\n\n23TCEIM1_DHARMIK");
-	getch();
+    else{
+	printf("\nFinal Amount:%.0f",Total_Price);
+    }
+	printf("\n23TCEIM1_DHARMIK");
 }

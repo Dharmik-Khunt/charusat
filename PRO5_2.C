@@ -4,7 +4,6 @@
 void main()
 {
 	float x1,x2,x3,y1,y2,y3,s1,s2,s3;
-	clrscr();
 
 	printf("Enter (x1,y1) Points:");
 	scanf("%d%d",&x1,&y1);
@@ -27,5 +26,5 @@ void main()
 
 	}
 	printf("\n\n23TCEIM1_DHARMIK");
-	getch();
+	return 0;
 }
