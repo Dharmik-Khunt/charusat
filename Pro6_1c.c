@@ -25,5 +25,5 @@ int main()
         printf("Num is not perfect");
     }
 
-    printf("23TCEIM1_DHARMIK");
+    printf("\n23TCEIM1_DHARMIK");
 }

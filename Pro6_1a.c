@@ -1,33 +1,93 @@
-//This program is done by 23TCEIM1_DHARMIK
+//This program is done by 23CE058_DHARMIK
 #include <stdio.h>
+#include<math.h>
 int main()
 {
 
-  int n, i, flag = 0;
-  printf("Enter a positive integer: ");
-  scanf("%d", &n);
+  int choice;
+  int n, i, count = 0;
+  int r, on,length, sum=0, p;
+  int num;
 
-  if (n == 0 || n == 1)
-    flag = 1;
+  printf("1. Prime Num \n2. Armstrong Num \n3. Perfect Num\n");
+  scanf("%d",&choice);
 
-  for (i = 2; i <= n / 2; ++i) 
+  switch(choice)
   {
-    if (n % i == 0) 
+    case 1:
+    
+    printf("Enter a positive integer: ");
+    scanf("%d", &n);
+
+    for (i = 1; i <= n ; i++) 
     {
-      flag = 1;
-      break;
+      if (n % i == 0) 
+      {
+        count++;
+      }
     }
-  }
 
-  if (flag == 0)
-  {
-    printf("%d is a prime number.", n);
-  }
-  else
-  {
-    printf("%d is not a prime number.", n);
-  }
+    if (count <= 2)
+    {
+      printf("%d is a prime number.", n);
+    }
+    else
+    {
+      printf("%d is not a prime number.", n);
+    }
+    break;
 
-    printf("23TCEIM1_DHARMIK");
+    case 2:
+    
+    printf("Enter the num:");
+    scanf("%d",&n);
+    printf("Enter the length:");
+    scanf("%d",&length);
+
+    on = n;
+    while(on>0)
+    {
+        r = on % 10;
+        p = pow(r,length);
+        sum = sum + p;
+        on = on / 10;
+    }
+
+    if(n == sum)
+    {
+        printf("It is armstrong num");
+    }
+    else
+    {
+        printf("It is not an armstrong num");
+    }
+    break;
+
+    case 3:
+
+    printf("Enter the Number:");
+    scanf("%d",&num);
+
+    for(i=1; i<num; i++)
+    {
+        if(num%i==0)
+        {
+            printf("%d\n",i);
+            sum = sum + i;
+        }
+    }
+
+    if(num == sum)
+    {
+        printf("Num is perfect");
+    }
+    else
+    {
+        printf("Num is not perfect");
+    }
+    break;
+
+  }
+  printf("\n23CE058_DHARMIK");
   return 0;
 }

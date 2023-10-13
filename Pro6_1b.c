@@ -24,5 +24,5 @@ int main()
         printf("It is not an armstrong num");
     }
 
-    printf("23TCEIM1_DHARMIK");
+    printf("\n23CEI058_DHARMIK");
 }
