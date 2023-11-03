@@ -1,25 +1,26 @@
 #include<stdio.h>
-void main()
+int main()
 {
-    int n,i,j,count=0;
-    printf("Enter N:");
+    int n,i=1,j,sum=0;
+    printf("Enter the any value:");
     scanf("%d",&n);
-    
-    for(i=1; i<=n; i++)
+    while(i<=n)
     {
-        printf("%d ",i);
-        
-        for(j=1; j<=n; j++)
+        j=1;
+        sum=0;
+        while(j<=n)
         {
-            if(j%i==0)
+            if(i%j==0)
             {
-                count++;
+               sum++;
             }
+            j++;
         }
-        if(count<=2)
+        if(sum==2)
         {
-            printf("%d is prime",j);
+            printf("%d ",i);
         }
+        i++;
     }
-   
+    return 0;
 }

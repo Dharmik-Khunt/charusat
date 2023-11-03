@@ -1,5 +1,5 @@
 //This program is done by 23CE058_DHARMIK
- #include <stdio.h> 
+#include <stdio.h> 
 #include <ctype.h> 
  void main ( ) 
  { 

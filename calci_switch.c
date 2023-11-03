@@ -8,7 +8,7 @@ int main()
     printf("Enter B:");
     scanf("%d",&b);
     printf("Enter sign(+,-) ");
-     scanf("%c",&ch);
+    scanf("%c",&ch);
     c=0;
 
     switch(ch)

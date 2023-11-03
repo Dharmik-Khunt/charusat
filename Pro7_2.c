@@ -28,7 +28,7 @@ int main()
     {
         for(i=0; i<9-j; i++)
         {
-            if(c[i]>c[i+1])
+            if(c[i]>c[i+1])Exam1.c
             {
                 t=c[i];
                 c[i]=c[i+1];
