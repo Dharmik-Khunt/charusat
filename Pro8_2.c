@@ -1,43 +1,30 @@
-  #include <stdio.h>
-    #include <string.h>
-    void main()
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char a[5][25],temp[25];
+    int i,j;
+    printf("enter name of students:\n");
+    for(i=0;i<5;i++)
     {
- 
-        char name[10][8], tname[10][8], temp[8];
-        int i, j, n;
- 
-        printf("Enter the value of n:");
-        scanf("%d", &n);
- 
-        for (i = 0; i < n; i++) 
+        fgets(a[i],25,stdin);
+    }
+    for(i=0;i<5;i++)
+    {
+        for(j=i+1;j<5;j++)
         {
-            printf("Enter name of %d:", i);
-            scanf("%s", name[i]);
-            strcpy(tname[i], name[i]);
-        }
- 
-        for (i = 0; i < n - 1 ; i++)
-        {
-            for (j = i + 1; j < n; j++)
+            if(strcmp(a[i],a[j])>0)
             {
-                if (strcmp(name[i], name[j]) > 0) 
-                {
-                    strcpy(temp, name[i]);
-                    strcpy(name[i], name[j]);
-                    strcpy(name[j], temp);
-                }
+                strcpy(temp,a[i]);
+                strcpy(a[i],a[j]);
+                strcpy(a[j],temp);
             }
         }
- 
-        printf("\n----------------------------------------\n");
-        printf("Input NamestSorted names\n");
-        printf("------------------------------------------\n");
- 
-        for (i = 0; i < n; i++) 
-        {
-            printf("%s\t\t%s\n", tname[i], name[i]);
-        }
- 
-        printf("------------------------------------------\n");
- 
     }
+    printf("\nstring in sequence:\n");
+    for(i=0;i<5;i++)
+    {
+        printf("%s",a[i]);
+    }
+    printf("\n23CE058_DHARMIK");
+}

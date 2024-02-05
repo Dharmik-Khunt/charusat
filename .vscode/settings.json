@@ -20,6 +20,7 @@
         "PROJECT 3.3(b).C": "cpp",
         "PROJECT 5.1.C": "cpp",
         "PRO5_2.C": "cpp",
-        "pRO6_2.C": "cpp"
+        "pRO6_2.C": "cpp",
+        "iostream": "cpp"
     }
 }

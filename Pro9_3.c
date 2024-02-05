@@ -9,7 +9,7 @@ void main()
     ans=bin(n);
     printf("Binary number is : %d",ans);
 
-    printf("23CE058_DHARMIK");
+    printf("\n23CE058_DHARMIK");
 }
 int bin(int n)
 {
